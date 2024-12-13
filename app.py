@@ -53,7 +53,19 @@ with st.form("company_info", clear_on_submit=True):
 
             # TODO: Create prompt <=================
             prompt = """
-            You are 
+            You are the best AI Assistant for sale representives. Analyze the following inputs:
+
+            Company Information: {company_information}
+
+            Product Name: {product_name}
+            competitors Url: {competitors_url}
+            Product Category: {product_category}
+            Value Proposition:{value_proposition}
+            Target Customer: {target_customer}
+
+        
+        Generate a report including:
+        1. 
       
       """
 
