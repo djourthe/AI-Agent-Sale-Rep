@@ -65,7 +65,8 @@ with st.form("company_info", clear_on_submit=True):
 
         
         Generate a report including:
-        1. 
+        1. A one-page summary of account insights with sections like company strategy, competitor mentions, and leadership information.
+
       
       """
 
